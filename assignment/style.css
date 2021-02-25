@@ -1,13 +1,16 @@
 /* Give your page a fun background color */
 body {
-  background-color: grey;
+  background-image: url("https://www.wallpapertip.com/wmimgs/6-61078_fluffy-clouds-wallpaper-242902-data-src-high-resolution.jpg");
+  background-color: white;
 }
 /* Make the header and footer a different color from the background */
 header {
   background-color: white;
 }
 footer {
-  background-color: blue;
+  background-color: lightblue;
+  height: auto;
+  width: auto;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
@@ -20,11 +23,17 @@ p {
 }
 /* Put a border around your image */
 img {
-  border: 5px solid black;
+  border: 50px ridge lightblue;
   width: 200px;
   height: 300px;
 }
 /* Change the font-family of your list */
 ul {
-  font: 30px "ariel",san-serif;
+  font-family: "Comic Sans MS", " Comic Sans", cursive;
+  font-size: 30px;
+}
+
+.selfie{
+  float:left;
+  margin-left;
 }
