@@ -11,7 +11,7 @@ mkdir
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
 The command line refreshes but nothing prints because the folder is empty. If you type ls while in a folder that contains files, it while print the names of the files.
 # 6 - What is a quick way to create a new file?
-In terminal type the command touch 'name of file'
+In terminal type the command touch followed by the name of the new file
 # 7 - Run 'git --version' in your terminal. What is the output?
 git version 2.24.3 (Apple Git-128)
 # 8 - Why would you run the command 'git status'?
