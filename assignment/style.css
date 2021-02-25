@@ -10,9 +10,19 @@ footer {
   background-color: blue;
 }
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+  text-align:center;
+}
 /* Make your p tag a different color and italic */
-
+p {
+  font-style: italic;
+  color: black;
+}
 /* Put a border around your image */
-
+img {
+  border: 5px solid grey;
+}
 /* Change the font-family of your list */
+ul {
+  font: 15px "ariel",san-serif;
+}
