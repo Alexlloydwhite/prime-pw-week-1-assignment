@@ -1,20 +1,22 @@
 /* Give your page a fun background color */
 body {
   background-image: url("https://www.wallpapertip.com/wmimgs/6-61078_fluffy-clouds-wallpaper-242902-data-src-high-resolution.jpg");
-  background-color: white;
+  background-color: grey;
 }
 /* Make the header and footer a different color from the background */
 header {
-  background-color: white;
+  background-color: lightblue;
 }
 footer {
-  background-color: lightblue;
+  background-color: white;
   height: auto;
   width: auto;
+  text-align: center;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
   text-align:center;
+  color: white;
 }
 /* Make your p tag a different color and italic */
 p {
@@ -27,13 +29,17 @@ img {
   width: 200px;
   height: 300px;
 }
+img{
+  float: left;
+}
 /* Change the font-family of your list */
 ul {
   font-family: "Comic Sans MS", " Comic Sans", cursive;
   font-size: 30px;
+  color: white;
+  list-style-type: circle;
 }
-
-.selfie{
-  float:left;
-  margin-left;
+.table {
+  display: table;
 }
+.imagestyle1 { position: relative; top: -57px; }
